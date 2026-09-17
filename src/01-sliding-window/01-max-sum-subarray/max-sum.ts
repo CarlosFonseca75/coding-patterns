@@ -21,7 +21,7 @@ export function bruteForce(numbers: number[], windowSize: number): number {
   return maxSum;
 }
 
-export function maxSum(numbers: number[], windowSize: number): number {
+export function slidingWindow(numbers: number[], windowSize: number): number {
   let result = 0;
   let currentSum = 0;
 
