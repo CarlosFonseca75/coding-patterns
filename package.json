@@ -1,0 +1,37 @@
+{
+  "name": "coding-patterns",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🧠 A hands-on collection of coding patterns and algorithm exercises.",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "coding-patterns",
+    "typescript",
+    "jest",
+    "coding-interview",
+    "technical-interview",
+    "problem-solving"
+  ],
+  "author": "Carlos Fonseca.",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.2",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.4.2",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.1",
+    "ts-jest": "^29.4.12",
+    "typescript": "^5.9.0"
+  }
+}
